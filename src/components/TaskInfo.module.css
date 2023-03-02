@@ -1,0 +1,49 @@
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    
+ }
+ 
+ .taskInfo {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   
+ }
+ 
+ .taskInfo  p{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 8px;
+     width: 52px;
+     height: 19px;
+     font-size: 0.75rem;
+     font-weight: 700;
+     background: var(--gray-400);
+     color: var(--gray-200);
+ }
+ 
+ .taskComplete {
+     display: flex;
+     gap: 8px;
+ }
+ 
+ .taskComplete  strong{
+     color: var(--blue-dark);
+     font-size: 0.875rem;
+     font-weight: 700;
+ 
+ }
+ 
+ .taskMiss {
+     display: flex;
+     gap: 8px;
+ }
+ 
+ .taskMiss strong{
+     color: var(--purple);
+     font-size: 0.875rem;
+     font-weight: 700;
+     line-height: 17px;
+ }

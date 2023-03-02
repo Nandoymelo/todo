@@ -1,0 +1,21 @@
+.header {
+    background: var(--gray-700);
+    padding-top: 2rem;
+    height: 200px;
+   
+    
+    
+    
+   
+   
+} 
+
+.logo {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 2rem 1rem 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

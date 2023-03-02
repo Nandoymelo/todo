@@ -1,0 +1,42 @@
+
+.taskList {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 24px;
+    border-radius: 8px;
+    border-top: 1px solid var(--gray-400);
+    
+}
+
+.taskContent { 
+    display: flex;
+    margin-top: 64px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-300);
+    line-height: 140%;
+    border-radius: 8px;
+}
+
+
+.taskContent img{
+    margin-bottom: 16px;
+}
+
+.taskContent strong {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1rem;
+} 
+
+
+
+
+
+
+
+
